@@ -160,7 +160,7 @@ const InfluencerInvoiceDetails = () => {
           </div>
 
           {/* Bookings Table */}
-          <div className="bg-white rounded-lg shadow overflow-hidden">
+          <div className="bg-white rounded-lg shadow-sm overflow-hidden">
             <div className="p-6 border-b border-gray-100">
               <h2 className="text-xl font-medium text-bwc-charcoal">
                 Booking Breakdown

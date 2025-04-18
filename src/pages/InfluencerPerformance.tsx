@@ -389,7 +389,7 @@ const InfluencerPerformance = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
-        <main className="flex-grow pt-24 pb-20">
+        <main className="grow pt-24 pb-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
               <div>
@@ -414,7 +414,7 @@ const InfluencerPerformance = () => {
                 <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                   <CardTitle>Influencer Code Performance</CardTitle>
                   <div className="flex w-full md:w-auto gap-2">
-                    <div className="relative flex-grow">
+                    <div className="relative grow">
                       <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-bwc-charcoal-light h-4 w-4" />
                       <Input
                         placeholder="Search influencers..."

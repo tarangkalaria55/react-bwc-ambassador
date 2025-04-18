@@ -97,7 +97,7 @@ const FilterDialog: React.FC<FilterDialogProps> = ({
                   control={form.control}
                   name="sort"
                   render={({ field }) => (
-                    <FormItem className="flex-grow">
+                    <FormItem className="grow">
                       <Select
                         onValueChange={field.onChange}
                         defaultValue={field.value}
@@ -122,7 +122,7 @@ const FilterDialog: React.FC<FilterDialogProps> = ({
                   control={form.control}
                   name="sortDirection"
                   render={({ field }) => (
-                    <FormItem className="flex-grow">
+                    <FormItem className="grow">
                       <Select
                         onValueChange={field.onChange}
                         defaultValue={field.value}

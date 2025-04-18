@@ -39,7 +39,7 @@ const Profile = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
-        <main className="flex-grow pt-24 pb-20">
+        <main className="grow pt-24 pb-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
               <div>
@@ -79,7 +79,7 @@ const Profile = () => {
                   ) : (
                     // Ambassador Profile Card
                     <>
-                      <div className="bg-gradient-to-r from-bwc-gold/20 to-bwc-gold-light/30 h-32 flex justify-center">
+                      <div className="bg-linear-to-r from-bwc-gold/20 to-bwc-gold-light/30 h-32 flex justify-center">
                         <Avatar className="h-32 w-32 border-4 border-white relative top-16">
                           <AvatarImage src="" />
                           <AvatarFallback className="bg-bwc-gold-light text-bwc-gold text-2xl">

@@ -200,7 +200,7 @@ const Admin = () => {
               {quickActions.map((action) => (
                 <div
                   key={action.title}
-                  className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 hover:border-bwc-gold transition-colors cursor-pointer"
+                  className="bg-white rounded-lg shadow-xs border border-gray-200 p-4 hover:border-bwc-gold transition-colors cursor-pointer"
                   onClick={() => navigate(action.href)}
                 >
                   <div className="flex items-center justify-between mb-2">

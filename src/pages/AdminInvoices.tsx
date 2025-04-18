@@ -235,7 +235,7 @@ const AdminInvoices = () => {
             </Card>
           </div>
 
-          <div className="bg-white rounded-lg shadow overflow-hidden">
+          <div className="bg-white rounded-lg shadow-sm overflow-hidden">
             <Table>
               <TableHeader>
                 <TableRow>

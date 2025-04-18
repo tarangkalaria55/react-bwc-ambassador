@@ -57,7 +57,7 @@ const StatCard: React.FC<StatCardProps> = ({
                 align="center"
                 side="top"
                 sideOffset={5}
-                className="p-3 bg-white text-bwc-charcoal border-bwc-gold/20 shadow-md z-[9999]"
+                className="p-3 bg-white text-bwc-charcoal border-bwc-gold/20 shadow-md z-9999"
                 forceMount
               >
                 <p className="text-sm">{tooltip}</p>
@@ -90,7 +90,7 @@ const StatCard: React.FC<StatCardProps> = ({
                 align="center"
                 side="top"
                 sideOffset={5}
-                className="p-3 bg-white text-bwc-charcoal border-bwc-gold/20 shadow-md z-[9999]"
+                className="p-3 bg-white text-bwc-charcoal border-bwc-gold/20 shadow-md z-9999"
                 forceMount
               >
                 <p className="text-sm">

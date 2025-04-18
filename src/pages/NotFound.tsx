@@ -11,7 +11,7 @@ const NotFound = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
-        <main className="flex-grow flex items-center justify-center">
+        <main className="grow flex items-center justify-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
             <h1 className="text-9xl font-display font-bold text-bwc-gold">
               404

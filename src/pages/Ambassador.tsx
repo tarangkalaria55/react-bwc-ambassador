@@ -9,7 +9,7 @@ const Ambassador = () => {
     <PageTransition>
       <div className="min-h-screen flex flex-col">
         <Navbar />
-        <main className="flex-grow">
+        <main className="grow">
           <div className="max-w-4xl mx-auto px-4">
             <AmbassadorInterestForm />
           </div>

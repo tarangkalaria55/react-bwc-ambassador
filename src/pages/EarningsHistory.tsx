@@ -75,7 +75,7 @@ const EarningsHistory = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
 
-        <main className="flex-grow pt-24 pb-20">
+        <main className="grow pt-24 pb-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
               <div>
@@ -152,7 +152,7 @@ const EarningsHistory = () => {
               </Card>
             </div>
 
-            <div className="bg-white rounded-lg shadow">
+            <div className="bg-white rounded-lg shadow-sm">
               <Table>
                 <TableHeader>
                   <TableRow>

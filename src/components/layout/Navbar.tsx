@@ -95,7 +95,7 @@ const Navbar: React.FC = () => {
                 <div className="flex md:hidden mr-4">
                   <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-none"
+                    className="inline-flex items-center justify-center p-2 rounded-md text-white focus:outline-hidden"
                     aria-expanded="false"
                   >
                     <span className="sr-only">Open main menu</span>
@@ -110,7 +110,7 @@ const Navbar: React.FC = () => {
 
               <Link
                 to={isAdmin ? "/admin" : "/"}
-                className="flex-shrink-0"
+                className="shrink-0"
                 onClick={handleLogoClick}
               >
                 <img
