@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  react_bwc_ambassador:
+    image: react_bwc_ambassador
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    # environment:
+    #   NODE_ENV: production
+    ports:
+      - 3000:8080
+    # volumes:
+    #   - .:/app
+    #   - /app/node_modules
