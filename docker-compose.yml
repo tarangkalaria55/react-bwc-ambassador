@@ -10,6 +10,6 @@ services:
     #   NODE_ENV: production
     ports:
       - 3000:8080
-    # volumes:
-    #   - .:/app
-    #   - /app/node_modules
+    volumes:
+      - .:/app
+      - /app/node_modules
